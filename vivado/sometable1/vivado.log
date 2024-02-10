@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May  3 15:26:02 2018
+# Process ID: 16076
+# Current directory: D:/IV SEM/Verilog HDL/vivado/sometable
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8692 D:\IV SEM\Verilog HDL\vivado\sometable\sometable.xpr
+# Log file: D:/IV SEM/Verilog HDL/vivado/sometable/vivado.log
+# Journal file: D:/IV SEM/Verilog HDL/vivado/sometable\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/IV SEM/Verilog HDL/vivado/sometable/sometable.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 746.738 ; gain = 106.625
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: st
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 835.066 ; gain = 84.832
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'st' [D:/IV SEM/Verilog HDL/vivado/sometable/sometable.srcs/sources_1/new/st.v:23]
+INFO: [Synth 8-256] done synthesizing module 'st' (1#1) [D:/IV SEM/Verilog HDL/vivado/sometable/sometable.srcs/sources_1/new/st.v:23]
+WARNING: [Synth 8-3331] design st has unconnected port clk[3]
+WARNING: [Synth 8-3331] design st has unconnected port clk[2]
+WARNING: [Synth 8-3331] design st has unconnected port clk[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 887.051 ; gain = 136.816
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 887.051 ; gain = 136.816
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1219.320 ; gain = 469.086
+6 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1219.320 ; gain = 469.086
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  3 15:37:19 2018...

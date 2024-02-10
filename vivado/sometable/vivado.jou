@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May  3 15:02:35 2018
+# Process ID: 7792
+# Current directory: C:/Users/Amruth/Documents/vivado/sometable
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1516 C:\Users\Amruth\Documents\vivado\sometable\sometable.xpr
+# Log file: C:/Users/Amruth/Documents/vivado/sometable/vivado.log
+# Journal file: C:/Users/Amruth/Documents/vivado/sometable\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Amruth/Documents/vivado/sometable/sometable.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+synth_design -rtl -name rtl_1
+close_sim

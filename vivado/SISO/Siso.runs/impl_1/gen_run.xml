@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1552842335">
+  <File Type="PWROPT-DCP" Name="siso_pwropt.dcp"/>
+  <File Type="BITSTR-BMM" Name="siso_bd.bmm"/>
+  <File Type="ROUTE-PWR" Name="siso_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="siso.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="siso_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="siso_reports.tcl"/>
+  <File Type="OPT-DCP" Name="siso_opt.dcp"/>
+  <File Type="BG-DRC" Name="siso.drc"/>
+  <File Type="OPT-HWDEF" Name="siso.hwdef"/>
+  <File Type="OPT-DRC" Name="siso_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="siso_placed.dcp"/>
+  <File Type="PLACE-IO" Name="siso_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="siso_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="siso_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="siso_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="siso_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="siso.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="siso_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="siso.bin"/>
+  <File Type="PHYSOPT-DCP" Name="siso_physopt.dcp"/>
+  <File Type="BG-BIT" Name="siso.bit"/>
+  <File Type="BITSTR-MSK" Name="siso.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="siso_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="siso_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="siso_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="siso_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="siso_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="siso.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="siso_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="siso.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="siso_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="siso.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="siso_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="siso.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="siso_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="siso_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="siso_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="siso_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="siso_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="siso_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="siso_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="siso_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="siso.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="siso_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="siso_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="siso.nky"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/siso.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="siso"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

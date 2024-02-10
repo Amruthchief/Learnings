@@ -1,0 +1,32 @@
+$date
+   Wed Apr 27 00:11:35 2022
+$end
+$version
+  2018.3
+$end
+$timescale
+  1ps
+$end
+$scope module test $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var reg 1 # d $end
+$var wire 1 $ q $end
+$var wire 1 % qb $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+x#
+0$
+1%
+$end
+#1000
+0"
+1#
+#2000
+1!
+1$
+0%

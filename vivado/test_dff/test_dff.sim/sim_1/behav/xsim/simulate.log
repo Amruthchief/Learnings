@@ -1,0 +1,9 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Reset flop.
+d:x, q:0, qb:1
+Release reset.
+d:1, q:0, qb:1
+Toggle clk.
+d:1, q:1, qb:0
+srcs/sources_1/new/tb.v" Line 49

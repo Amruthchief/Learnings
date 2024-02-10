@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May  3 14:23:43 2018
+# Process ID: 14588
+# Current directory: C:/Users/Amruth/Desktop/sometable
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9920 C:\Users\Amruth\Desktop\sometable\sometable.xpr
+# Log file: C:/Users/Amruth/Desktop/sometable/vivado.log
+# Journal file: C:/Users/Amruth/Desktop/sometable\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Amruth/Desktop/sometable/sometable.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim

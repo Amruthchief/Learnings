@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May  3 18:44:24 2018
+# Process ID: 9616
+# Current directory: C:/Users/Amruth/Documents/vivado/mux8x1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4180 C:\Users\Amruth\Documents\vivado\mux8x1\mux8x1.xpr
+# Log file: C:/Users/Amruth/Documents/vivado/mux8x1/vivado.log
+# Journal file: C:/Users/Amruth/Documents/vivado/mux8x1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 776.434 ; gain = 82.723
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux1
+ERROR: [VRFC 10-1243] port i must not be declared to be an array [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:24]
+WARNING: [VRFC 10-634] event expressions must result in a singular type [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:29]
+ERROR: [VRFC 10-1040] module mux1 ignored due to previous errors [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux1
+ERROR: [VRFC 10-1243] port i must not be declared to be an array [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:24]
+WARNING: [VRFC 10-634] event expressions must result in a singular type [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:29]
+ERROR: [VRFC 10-1040] module mux1 ignored due to previous errors [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux1
+ERROR: [VRFC 10-1243] port i must not be declared to be an array [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:24]
+WARNING: [VRFC 10-634] event expressions must result in a singular type [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:29]
+ERROR: [VRFC 10-1040] module mux1 ignored due to previous errors [C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.srcs/sources_1/new/mux1.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  3 19:27:24 2018...

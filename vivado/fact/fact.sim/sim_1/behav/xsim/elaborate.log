@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: B:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 2a551ef0db024a09ba8ced3c4b0f3993 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot facto_tb_behav xil_defaultlib.facto_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <operation> not found while processing module instance <op> [C:/Users/amrut/Documents/vivado/fact/fact.srcs/sim_1/new/fact_tb.v:4]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

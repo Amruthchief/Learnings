@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sim_1/new/tb.v,1524053574,verilog,,,,tb,,,,,,,,
+C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sources_1/new/FA.v,1524051400,verilog,,C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sources_1/new/HA.v,,FA,,,,,,,,
+C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sources_1/new/HA.v,1523940458,verilog,,C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sources_1/new/RCA.v,,HA,,,,,,,,
+C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sources_1/new/RCA.v,1524052284,verilog,,C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sources_1/new/vm.v,,adder4,,,,,,,,
+C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sources_1/new/vm.v,1524053792,verilog,,C:/Users/Amruth/Documents/vivado/vedic_multiplier/vedic_multiplier.srcs/sim_1/new/tb.v,,vm,,,,,,,,

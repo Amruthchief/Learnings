@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May  3 18:44:24 2018
+# Process ID: 9616
+# Current directory: C:/Users/Amruth/Documents/vivado/mux8x1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4180 C:\Users\Amruth\Documents\vivado\mux8x1\mux8x1.xpr
+# Log file: C:/Users/Amruth/Documents/vivado/mux8x1/vivado.log
+# Journal file: C:/Users/Amruth/Documents/vivado/mux8x1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Amruth/Documents/vivado/mux8x1/mux8x1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation

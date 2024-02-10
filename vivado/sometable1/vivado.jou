@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May  3 15:26:02 2018
+# Process ID: 16076
+# Current directory: D:/IV SEM/Verilog HDL/vivado/sometable
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8692 D:\IV SEM\Verilog HDL\vivado\sometable\sometable.xpr
+# Log file: D:/IV SEM/Verilog HDL/vivado/sometable/vivado.log
+# Journal file: D:/IV SEM/Verilog HDL/vivado/sometable\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/IV SEM/Verilog HDL/vivado/sometable/sometable.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_project
