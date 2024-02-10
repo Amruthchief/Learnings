@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1553769376 source:c:\users\amrut\documents\c++\dssubmission1\array1d.cpp
+	<iostream>
+	"exception.h"
+
+1553749188 c:\users\amrut\documents\c++\dssubmission1\exception.h
+	<iostream>
+	<exception>
+
+1553749152 source:c:\users\amrut\documents\c++\dssubmission1\reversell.cpp
+	<iostream>
+	"exception.h"
+
+1553750492 source:c:\users\amrut\documents\c++\dssubmission1\array2d.cpp
+	<iostream>
+	"exception.h"
+

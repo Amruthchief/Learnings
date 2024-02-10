@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1552011022 source:/media/fuzz/OS/Users/amrut/Documents/C++/linux/seco.cpp
+	<iostream>
+	"exception.h"
+
+1552010363 /media/fuzz/OS/Users/amrut/Documents/C++/linux/exception.h
+	<iostream>
+
+1552009266 source:/media/fuzz/OS/Users/amrut/Documents/C++/linux/third.cpp
+	<iostream>
+	"exception.h"
+
+1554315783 source:c:\users\amrut\documents\c++\linux\third.cpp
+	<iostream>
+	"exception.h"
+
+1554317046 c:\users\amrut\documents\c++\linux\exception.h
+	<iostream>
+
+1554317264 source:c:\users\amrut\documents\c++\linux\seco.cpp
+	<iostream>
+	"exception.h"
+	"third.h"
+
+1554317169 c:\users\amrut\documents\c++\linux\third.h
+	<iostream>
+	"exception.h"
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1556047109 source:/media/fuzz/OS_SSD/Users/amrut/Documents/C++/Linkedlist/ll1.cpp
+	<iostream>
+	"exception.h"
+
+1554317046 /media/fuzz/OS_SSD/Users/amrut/Documents/C++/Linkedlist/exception.h
+	<iostream>
+
+1556128142 source:c:\users\amrut\documents\c++\linkedlist\ll1.cpp
+	<iostream>
+	"exception.h"
+
+1554317046 c:\users\amrut\documents\c++\linkedlist\exception.h
+	<iostream>
+
